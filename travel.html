@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <div class="contain">
+        <h3>Welcome to V Freight</h3>
+        <p>Enter your details</p>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+        <form action="travel.php" method="post">
+            
+            Full Name 
+            <br>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <br>
+            <br>
+            Age
+            <br>
+            <input type="number" name="age" id="age" placeholder="Enter age">
+            <br>
+            <br>
+            Gender
+            <br>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="other">Other
+            <br>
+            <br>
+            Mobile No.
+            <br>
+            <input type="tel" name="mobile" value="mobile" placeholder="Mobile No.">
+            <br>
+            <br>
+            Email ID
+            <br>
+            <input type="email" name="email" value="email" placeholder="Email ID">
+            <br>
+            <br>
+            Select travel date:
+            <br>
+            <input type="date" name="date" id="date">
+            <br>
+            <br>
+            Select source city:
+            <br>
+            <input type="radio" name="source" value="mumbai">Mumbai
+            <input type="radio" name="source" value="Pune">Pune
+            <input type="radio" name="source" value="New Delhi">New Delhi
+            <input type="radio" name="source" value="Banglore">Banglore
+            <input type="radio" name="source" value="Kolkata">Kolkata
+            <input type="radio" name="source" value="Chennai">Chennai
+            <br>
+            <br>
+            Select destination:
+            <br>
+            <input type="radio" name="destination" value="mumbai">Mumbai
+            <input type="radio" name="destination" value="Pune">Pune
+            <input type="radio" name="destination" value="New Delhi">New Delhi
+            <input type="radio" name="destination" value="Banglore">Banglore
+            <input type="radio" name="destination" value="Kolkata">Kolkata
+            <input type="radio" name="destination" value="Chennai">Chennai
+            <br>
+            <br>
+            <button class="book">BOOK YOUR FLIGHT</button>
+            
+
+        </form>
+    
+    <script src="travel.js"></script>
+    
+</body>
+</html>

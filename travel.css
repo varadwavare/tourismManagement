@@ -1,0 +1,40 @@
+div.contain{
+    max-width: 80%;
+    background-color: darkslateblue;
+    margin: auto;
+    color: white;
+    padding: 10px;
+}
+div.contain h3, p{
+    text-align: center;
+}
+form{
+    text-align: center;
+    background-color: antiquewhite;
+}
+input{
+    font-size: small;
+    border-color: black;
+    border-radius: 10px;
+}
+button.book{
+    font-size: medium;
+    border-color: black;
+    border-radius: 10px;
+    background-color: greenyellow;
+    padding: 5px;
+    cursor: pointer;
+}
+button.rst{
+    font-size: medium;
+    border-color: black;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+p.success{
+    color:rgb(146, 223, 68);
+    
+}
